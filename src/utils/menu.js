@@ -13,10 +13,12 @@ const menu = {
             }, {
                 "child": [{"buttons": ["新增", "查看", "修改", "删除"], "menu": "学历信息列表", "tableName": "xuelixinxi"}],
                 "menu": "学历信息管理"
-            }, {
-                "child": [{"buttons": ["新增", "查看", "修改", "删除"], "menu": "友情链接列表", "tableName": "youqinglianjie"}],
-                "menu": "友情链接管理"
-            }, {
+            }, 
+            // {
+            //     "child": [{"buttons": ["新增", "查看", "修改", "删除"], "menu": "友情链接列表", "tableName": "youqinglianjie"}],
+            //     "menu": "友情链接管理"
+            // },
+             {
                 "child": [{
                     "buttons": ["新增", "查看", "修改", "删除"],
                     "menu": "配置管理",

@@ -136,18 +136,22 @@
                       {{scope.row.gongzuojingli}}
                     </template>
                 </el-table-column>
-                                                                                                                                                                                        <el-table-column
+              <el-table-column
                 header-align="center"
                 align="center"
-                label="操作">
+                label="操作"
+              >
                 <template slot-scope="scope">
-                                <el-button v-if="isAuth('qiuzhizhexinxi','查看')" type="text" icon="el-icon-edit" size="small" @click="addOrUpdateHandler(scope.row.id,'info')">详情</el-button>
-                                                <el-button v-if="isAuth('qiuzhizhexinxi','修改')" type="text" icon="el-icon-edit" size="small" @click="addOrUpdateHandler(scope.row.id)">修改</el-button>
-                <el-button v-if="isAuth('qiuzhizhexinxi','删除')" type="text" icon="el-icon-delete" size="small" @click="deleteHandler(scope.row.id)">删除</el-button>
+                  <el-button 
+                    v-if="isAuth('qiuzhizhexinxi','查看')"
+                    type="primary" icon="el-icon-edit" size="small"
+                    @click="addOrUpdateHandler(scope.row.id,'info')"
+                  >详情</el-button>
+                  <el-button v-if="isAuth('qiuzhizhexinxi','修改')" type="warning" icon="el-icon-edit" size="mini" @click="addOrUpdateHandler(scope.row.id)" class="m-0">修改</el-button>
+                  <el-button v-if="isAuth('qiuzhizhexinxi','删除')" type="danger" icon="el-icon-delete" size="small" @click="deleteHandler(scope.row.id)" class="m-0">删除</el-button>
                 </template>
             </el-table-column>
-        </el-table>
-                                                                                                                                                                                                                <el-pagination
+        </el-table>                                                                                                                                                     <el-pagination
           @size-change="sizeChangeHandle"
           @current-change="currentChangeHandle"
           :current-page="pageIndex"
@@ -328,4 +332,7 @@ export default {
 };
 </script>
 <style lang="scss" scoped>
+.m-0 {
+  margin-left: 0px;
+}
 </style>

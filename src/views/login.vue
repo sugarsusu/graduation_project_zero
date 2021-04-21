@@ -2,7 +2,7 @@
     <div>
         <img class="bg" src="@/assets/img/bg.jpg">
         <el-form :model="rulesForm" :rules="rules" ref="rulesForm" class="login-form">
-            <h1 class="h1">11111系统登录</h1>
+            <h1 class="h1">HR人才内推系统登录</h1>
             <el-form-item label="账号" prop="username">
                 <el-input type="text" v-model="rulesForm.username"></el-input>
             </el-form-item>

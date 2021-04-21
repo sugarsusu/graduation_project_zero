@@ -2,7 +2,7 @@
   <div>
     <img class="bg" src="@/assets/img/bg.jpg">
     <el-form :model="ruleForm" :rules="rules" ref="ruleForm" class="login-form">
-      <h1 class="h1">校园招聘系统注册</h1>
+      <h1 class="h1">HR人才内推系统注册</h1>
                               <el-form-item v-if="tableName=='yonghu'" label="用户名" prop="yonghuyonghuming">
         <el-input v-model="ruleForm.yonghuming" placeholder="用户名"></el-input>
       </el-form-item>

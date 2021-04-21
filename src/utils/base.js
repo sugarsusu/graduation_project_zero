@@ -1,13 +1,13 @@
 const base = {
     get() {
                 return {
-                url : "http://localhost:8081/springbootjlvpC/",
+                url : "http://10.1.134.84:8081/springbootjlvpC/",
                 name: "springbootjlvpC"
             }
             },
     getProjectName(){
         return {
-            projectName: "校园招聘系统"
+            projectName: "HR人才内推系统"
         } 
     }
 }

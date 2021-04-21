@@ -1,5 +1,5 @@
 // 主颜色
-$mainColor: #384C65;
+$mainColor: rgb(50, 66, 85);
 
 // 顶部横条 开始
 .el-header {
@@ -110,8 +110,8 @@ $mainColor: #384C65;
     position: absolute;
     top: 0;
     left: 0;
-    border-top: 100px solid #384C65;
-    border-bottom: 100px solid #384C65;
+    border-top: 100px solid rgb(50, 66, 85);
+    border-bottom: 100px solid rgb(50, 66, 85);
     z-index: 10;
   }
 
@@ -154,21 +154,21 @@ $mainColor: #384C65;
       color: $mainColor;
     }
 
-    .el-button--primary{
-      background: $mainColor;
-      border: 1px solid $mainColor;
-    }
-    .el-button--primary:active {
-      background: $mainColor;
-      border-color: $mainColor;
-      color: #fff;
-      outline: none;
-    }
-    .el-button--primary:hover, .el-button--primary:focus {
-      background: $mainColor;
-      border-color: $mainColor;
-      color: #fff;
-    }
+    // .el-button--primary{
+    //   background: $mainColor;
+    //   border: 1px solid $mainColor;
+    // }
+    // .el-button--primary:active {
+    //   background: $mainColor;
+    //   border-color: $mainColor;
+    //   color: #fff;
+    //   outline: none;
+    // }
+    // .el-button--primary:hover, .el-button--primary:focus {
+    //   background: $mainColor;
+    //   border-color: $mainColor;
+    //   color: #fff;
+    // }
     .el-radio__input.is-checked + .el-radio__label {
      color: $mainColor;
      font-weight: bold;
@@ -186,21 +186,21 @@ $mainColor: #384C65;
 // 登录 结束
 
 // 按钮 开始
-.el-button--primary{
-  background: #F8B67A;
-  border: 1px solid #F8B67A;
-}
-.el-button--primary:active {
-  background: #F8B67A;
-  border-color: #F8B67A;
-  color: #fff;
-  outline: none;
-}
-.el-button--primary:hover, .el-button--primary:focus {
-  background: #F8B67A;
-  border-color: #F8B67A;
-  color: #fff;
-}
+// .el-button--primary{
+//   background: #F8B67A;
+//   border: 1px solid #F8B67A;
+// }
+// .el-button--primary:active {
+//   background: #F8B67A;
+//   border-color: #F8B67A;
+//   color: #fff;
+//   outline: none;
+// }
+// .el-button--primary:hover, .el-button--primary:focus {
+//   background: #F8B67A;
+//   border-color: #F8B67A;
+//   color: #fff;
+// }
 // 按钮 结束
 
 // 主体 开始
